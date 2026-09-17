@@ -8,6 +8,19 @@ The goal of this project is to predict the Total ESG Risk Score of companies usi
 
 The dataset was constructed by merging ESG data with financial data over the same reference period. The merged dataset initially contained 441 observations, with 378 companies retained in the final modelling sample after preprocessing.
 
+## Data Sources
+
+The dataset used in this project was constructed by merging information from two external sources:
+
+- **SimFin** for company-level financial data
+- **Kaggle** for ESG-related data on S&P 500 companies
+
+The two datasets were aligned to the same reference period and merged using companies available in both sources.
+
+Because the financial dataset did not contain all S&P 500 companies, the resulting merged sample was smaller than the full index universe.
+
+The merged dataset initially contained 441 observations, while the final modelling sample contained 378 companies after preprocessing.
+
 ## Methodology
 
 The analysis follows a supervised machine learning workflow:
@@ -108,19 +121,6 @@ esg-risk-prediction/
 - Matplotlib
 - Groq API
 - Jupyter Notebook
-
-## Data Sources
-
-The dataset used in this project was constructed by merging information from two external sources:
-
-- **SimFin** for company-level financial data
-- **Kaggle** for ESG-related data on S&P 500 companies
-
-The two datasets were aligned to the same reference period and merged using companies available in both sources.
-
-Because the financial dataset did not contain all S&P 500 companies, the resulting merged sample was smaller than the full index universe.
-
-The merged dataset initially contained 441 observations, while the final modelling sample contained 378 companies after preprocessing.
   
 ## Files
 
