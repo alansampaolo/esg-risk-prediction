@@ -97,6 +97,19 @@ The purpose of this step is not to improve the prediction itself, but to transla
 - Matplotlib
 - Groq API
 - Jupyter Notebook
+
+## Data Sources
+
+The dataset used in this project was constructed by merging information from two external sources:
+
+- **SimFin** for company-level financial data
+- **Kaggle** for ESG-related data on S&P 500 companies
+
+The two datasets were aligned to the same reference period and merged using companies available in both sources.
+
+Because the financial dataset did not contain all S&P 500 companies, the resulting merged sample was smaller than the full index universe.
+
+The merged dataset initially contained 441 observations, while the final modelling sample contained 378 companies after preprocessing.
   
 ## Files
 
