@@ -67,7 +67,7 @@ The PyTorch Neural Network achieved the best predictive performance on the held-
 | Random Forest | 5.481 | 4.287 | 0.341 |
 | Decision Tree | 5.631 | 4.407 | 0.305 |
 
-The best test R² is moderate, indicating that the available quantitative variables capture meaningful information about ESG Risk Scores but do not fully explain them.
+The best test R² is moderate, indicating that the available quantitative variables capture relevant information about ESG Risk Scores but do not fully explain them.
 
 ## Interpretation and Limitations
 
@@ -84,7 +84,7 @@ The main limitations are:
 
 - the final sample is smaller than the full S&P 500 universe because only companies available in both original data sources could be merged;
 - the final modelling sample contains 378 companies;
-- the best test R² is moderate rather than high;
+- the best test R² is moderate;
 - the analysis does not provide causal evidence and should therefore not be interpreted as a direct basis for policy recommendations.
 
 ## LLM Application
