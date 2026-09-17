@@ -84,6 +84,16 @@ The workflow is:
 
 The purpose of this step is not to improve the prediction itself, but to translate the model output into a more accessible narrative format.
 
+## Repository Structure
+
+```text
+esg-risk-prediction/
+│
+├── README.md
+├── esg_risk_prediction.ipynb
+├── esg_financials_merged_simfin_2023.csv
+└── esg_risk_prediction_report.pdf
+
 ## Technologies
 
 - Python
