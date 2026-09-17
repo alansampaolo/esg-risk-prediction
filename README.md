@@ -73,6 +73,16 @@ The main limitations are:
 - the final modelling sample contains 378 companies;
 - the best test R² is moderate rather than high;
 - the analysis does not provide causal evidence and should therefore not be interpreted as a direct basis for policy recommendations.
+
+## LLM Application
+
+As an additional application, the output of the best-performing PyTorch model was connected to a Large Language Model API to generate a short, readable ESG risk report.
+
+The workflow is:
+
+`Company data → PyTorch prediction → LLM-generated report`
+
+The purpose of this step is not to improve the prediction itself, but to translate the model output into a more accessible narrative format.
   
 ## Files
 
