@@ -83,6 +83,20 @@ The workflow is:
 `Company data → PyTorch prediction → LLM-generated report`
 
 The purpose of this step is not to improve the prediction itself, but to translate the model output into a more accessible narrative format.
+
+## Technologies
+
+- Python
+- pandas
+- NumPy
+- scikit-learn
+- PyTorch
+- SHAP
+- statsmodels
+- pyGAM
+- Matplotlib
+- Groq API
+- Jupyter Notebook
   
 ## Files
 
